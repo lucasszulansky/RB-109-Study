@@ -1,0 +1,7 @@
+x = 10
+
+for i in x..i do
+  x - i
+  puts i 
+end
+
