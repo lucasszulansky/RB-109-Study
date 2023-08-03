@@ -1,6 +1,9 @@
-numbers = [7, 9, 13, 25, 18]
-
-until numbers.size == 0
-  puts numbers.shift
+def fix(value)
+  value.upcase!
+  value.concat('!')
+  # value
 end
+s = 'hello'
+t = fix(s)
 
+puts t
