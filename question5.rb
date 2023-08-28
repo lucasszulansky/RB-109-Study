@@ -1,8 +1,9 @@
-x = 10
-
-def add_five(x)
-  x = x + 5
+def method(str)
+  str = "hello"
+  str << str
 end
 
-add_five(x)
-puts x
+word = "hello"
+method(word)
+
+puts word

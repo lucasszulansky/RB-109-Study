@@ -1,9 +1,3 @@
-def fix(value)
-  value.upcase!
-  value.concat('!')
-  # value
-end
-s = 'hello'
-t = fix(s)
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
-puts t
+puts alphabet.split('')
